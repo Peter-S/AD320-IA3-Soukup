@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		 <link rel="stylesheet" href="main.css">
+    </head>
+	
+	<script src="functions.js">
+	</script>
+	
+	<h1> Welcome to another assignment! <h1>
+		
+	<div>
+		
+	<span class = "div1">
+		<p>Click Below</p>
+		<p id="event1">|WTF|</p>
+	<script>
+		document.getElementById("event1").addEventListener("click", myFunction1);
+		</script>
+		
+		</span>
+		
+	<span class = "div2" id="event2">
+		<h6>
+			Mouse Over <br>
+			Mouse Click <br>
+			Mouse Out
+		</h6>
+	<script>
+		document.getElementById("event2").addEventListener("mouseover", myFunction2);
+		document.getElementById("event2").addEventListener("mouseout", myFunction3);
+		document.getElementById("event2").addEventListener("click", myFunction4);
+		</script>
+		</span>
+		
+	<span class = "div3" id = "event3">
+		<p>
+			Double Click<br>
+			For the<br>
+			Day and Time
+		</p>
+		<script>
+			document.getElementById("event3").addEventListener("dblclick", myFunction5);
+		</script>
+		</span>
+		
+		</div>
+	<span class = "div4" id = "event4">
+		Enter Your Name <input type="text" onfocus="myFunction6(this)">
+		
+		</span>
+		
+	<span class = "div5">
+		Function is triggerd by keystoke in box<br>
+		<input type="text" id="event5">
+		
+		<script>
+			document.getElementById("event5").addEventListener("keydown", myFunction7);
+		</script>
+		</span>
+		
+		<center id="time"></center>
+		
+<body>
+<html>

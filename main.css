@@ -1,0 +1,39 @@
+span.div1 {
+	display: inline-block;
+	text-align: center;
+    height: 150px;
+    width: 300px;
+	background-color: chartreuse;
+}
+
+span.div2 {
+	display: inline-block;
+	text-align: center;
+    height: 150px;
+    width: 300px;
+	background-color: red;
+}
+
+span.div3 {
+	display: inline-block;
+	text-align: center;
+    height: 150px;
+    width: 300px;
+	background-color: blueviolet;
+}
+
+span.div4 {
+	display: inline-block;
+	text-align: center;
+    height: 150px;
+    width: 300px;
+	background-color: orange;
+}
+
+span.div5 {
+	display: inline-block;
+	text-align: center;
+    height: 150px;
+    width: 300px;
+	background-color: peachpuff;
+}
