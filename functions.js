@@ -1,3 +1,10 @@
+document.getElementById("event1").addEventListener("click", myFunction1);
+document.getElementById("event2").addEventListener("mouseover", myFunction2);
+document.getElementById("event2").addEventListener("mouseout", myFunction3);
+document.getElementById("event2").addEventListener("click", myFunction4);
+document.getElementById("event3").addEventListener("dblclick", myFunction5);
+document.getElementById("event5").addEventListener("keydown", myFunction7);
+
 function myFunction1() {
 	alert ("You Clicked |WTF|");
 }
